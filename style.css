@@ -1,0 +1,123 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-image:url('./resurse/poza_barca.png');
+    display: flex;
+    margin:0;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.prezentare{
+    display: flex;
+   background-color: rgba(255, 250, 250, 0.665);
+    margin:0.5cm;   
+    flex-direction: column;
+    width: 80%;
+    padding: 0.3cm;
+}
+.scris{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1cm;
+    display: flex;
+    margin: 0;
+    font-weight: 600;
+    justify-content: start;
+    padding-bottom: 0.5cm;
+    
+}
+#poza img{
+    height: 6cm;
+    width: auto;
+    padding-right: 0.3cm;
+ 
+}
+.text{
+    display: flex;
+    
+    
+}
+p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.6cm;
+    display: flex;
+    margin-bottom: 0.4cm;
+    font-weight: 600;
+    margin-top: 0cm;
+    flex-direction:column;
+}
+#poza{
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+}
+button {
+    background-color: inherit;
+    border: none;
+    color: black;
+    padding-top: 0cm;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    height: 0.1cm;
+}
+h1{
+    
+    font-weight: 600;
+    margin:0cm;
+    
+}
+.container{
+    width: 85vmin;
+    
+    
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    border: 10px solid rgba(236, 180, 11, 0.975);
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(24, 24, 30, 0.3);
+    display: flex;
+    align-self: center;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 18s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+img{
+    width: 100%;
+    height: auto;
+}

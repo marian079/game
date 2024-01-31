@@ -1,0 +1,144 @@
+
+body{
+    background-image:url('./resurse/poza_barca.png');
+    display: flex;
+    margin:0;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+    flex-direction: column;
+}
+.prezentare{
+    display: flex;
+   background-color: rgba(255, 250, 250, 0.665);
+    margin:0.5cm;
+    
+    
+    
+    
+}
+.citat{
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    flex-direction: column;
+    padding: 0.2cm;
+    
+  
+}
+.stanga{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(236, 180, 11, 0.555);
+    align-items: center;
+    padding-top: 0.5cm;
+    align-items: center;
+    
+    
+}
+.centru{
+    display: flex;
+    margin-top: 1cm;
+    flex-direction: column; 
+    align-items: center;
+    
+    
+}
+i{
+    display: flex;
+   font-weight: 600;
+    font-size: 0.6cm;
+   
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    padding: 0.2cm;
+    padding-top: 0;
+   
+}
+
+    .poza img{
+        height: auto;
+        width: 100%;
+    }
+    .scris{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 0.7cm;
+        display: flex;
+        margin: 0;
+        font-weight: 500;
+        
+    }
+    .footer{
+        display: flex;
+        background-color: #B6EADA;
+        height: 1cm;
+        width: auto;
+        font-size: 0.5cm;
+        justify-content: center;
+        align-items: center;
+    }
+    .buton {
+        background-color: inherit;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+      }
+    
+      
+      .container{
+        width: 85vmin;
+        
+        
+        top: 50%;
+        left: 50%;
+        overflow: hidden;
+        border: 10px solid rgba(236, 180, 11, 0.975);
+        border-radius: 8px;
+        box-shadow: 10px 25px 30px rgba(24, 24, 30, 0.3);
+        display: flex;
+    }
+    .wrapper{
+        width: 100%;
+        display: flex;
+        animation: slide 18s infinite;
+    }
+    @keyframes slide{
+        0%{
+            transform: translateX(0);
+        }
+        25%{
+            transform: translateX(0);
+        }
+        30%{
+            transform: translateX(-100%);
+        }
+        50%{
+            transform: translateX(-100%);
+        }
+        55%{
+            transform: translateX(-200%);
+        }
+        75%{
+            transform: translateX(-200%);
+        }
+        80%{
+            transform: translateX(-300%);
+        }
+        100%{
+            transform: translateX(-300%);
+        }
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+      
+   
